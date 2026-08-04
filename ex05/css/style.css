@@ -40,4 +40,29 @@ li{
     border-bottom: 1px solid #4b4b4b;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+li:last-child{
+    border-bottom: none;
+}
+
+li:span{
+    flex: 1;
+}
+
+li button{
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+li.completa span{
+    text-decoration: line-through;
+    color: #888;
 }
